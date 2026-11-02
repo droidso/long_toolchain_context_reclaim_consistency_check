@@ -1,11 +1,11 @@
-# segmodel_jd091
+# long_toolchain_context_reclaim_consistency_check
 
 **找出图像分割研究员·长工具链的上下文回收里互相矛盾的两处并排列出。**
 
-`segmodel_jd091` —— 在同一个输入里两两比对，检测图像分割研究员·长工具链的上下文回收相关的矛盾表述，把冲突双方原样并排呈现
+`long_toolchain_context_reclaim_consistency_check` —— 在同一个输入里两两比对，检测图像分割研究员·长工具链的上下文回收相关的矛盾表述，把冲突双方原样并排呈现
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`segmodel_jd091.py` 拷走就能用
+- 单文件，`long_toolchain_context_reclaim_consistency_check.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install droidso-segmodel_jd091
+pip install droidso-long_toolchain_context_reclaim_consistency_check
 ```
 
 装完直接用命令名调用：
 
 ```bash
-segmodel_jd091 --help
+long_toolchain_context_reclaim_consistency_check --help
 ```
 
-也可以不用安装，直接把 `segmodel_jd091.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `long_toolchain_context_reclaim_consistency_check.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ segmodel_jd091 --help
 ## 用法
 
 ```bash
-python segmodel_jd091.py --file input.txt
-python segmodel_jd091.py --text "示例内容"
-python segmodel_jd091.py --file input.txt --json
+python long_toolchain_context_reclaim_consistency_check.py --file input.txt
+python long_toolchain_context_reclaim_consistency_check.py --text "示例内容"
+python long_toolchain_context_reclaim_consistency_check.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python segmodel_jd091.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_segmodel_jd091.py
+python test_long_toolchain_context_reclaim_consistency_check.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_segmodel_jd091.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/droidso/segmodel_jd091>
+- GitHub 仓库：<https://github.com/droidso/long_toolchain_context_reclaim_consistency_check>
 
 ---
 
@@ -79,7 +79,7 @@ python test_segmodel_jd091.py
 droidso 做图像分割研究员·长工具链的上下文回收相关的问题，方向对标蚂蚁集团的中级图像分割研究员岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://droidso.github.io>
-- 仓库：<https://github.com/droidso/segmodel_jd091>
+- 仓库：<https://github.com/droidso/long_toolchain_context_reclaim_consistency_check>
 
 ## 许可
 
